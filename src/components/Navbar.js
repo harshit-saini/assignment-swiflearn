@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Nav = styled.nav`
-  height: 80px;
+  min-height: 80px;
 
   & li{
     margin-right: 30px;

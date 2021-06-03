@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item d-flex align-items-center">
+            <li className="nav-item d-flex align-items-center mt-3 mt-lg-0">
               <a className="nav-link" href="#">
                 <div className="d-flex flex-column justifu-content-center">
                   <span className="fw-light small">Upcoming <i className="fas fa-circle small text-o"></i></span>
@@ -35,13 +35,13 @@ const Navbar = () => {
                 </div>
               </a>
             </li>
-            <li className="nav-item d-flex align-items-end">
+            <li className="nav-item d-flex align-items-end mt-3 mt-lg-0">
               <a className="nav-link" href="#">Buy Plans</a>
             </li>
-            <li className="nav-item d-flex align-items-end">
+            <li className="nav-item d-flex align-items-end mt-3 mt-lg-0">
               <a className="nav-link" href="#">View Plans</a>
             </li>
-            <li className="nav-item d-flex align-items-center">
+            <li className="nav-item d-flex align-items-center mt-3 mt-lg-0">
               <button className="rounded-pill btn btn-primary" href="#">Log In</button>
             </li>
           </ul>

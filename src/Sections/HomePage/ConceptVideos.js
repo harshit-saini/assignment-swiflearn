@@ -29,7 +29,7 @@ const ConceptVideos = () => {
           modifier: 4,
           slideShadows: false,
         }}
-        initialSlide="2"
+        initialSlide="4"
         pagination={false}
         navigation={{
           prevEl: "#prev",
